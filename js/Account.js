@@ -4,4 +4,5 @@ function Account () {
     this.document;
     this.email;
     this.password;
+
 }
