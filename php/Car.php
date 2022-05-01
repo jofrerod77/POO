@@ -6,4 +6,12 @@ class Car {
     public $driver = string;
     public $passengers = integer;
     
+    public function __construct($license, $driver) {
+        $this->license = $license;
+        $this->driver = $driver;
+    }
+
+    public function PrintDataCar(){
+        echo "\nLicense: $this->license, Conductor: {$this->driver->name}, Document: {$this->driver->document}\n";
+    }
 }

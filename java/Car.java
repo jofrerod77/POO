@@ -9,9 +9,9 @@ class Car {
         this.license = license;
         this.driver = driver;
     }
-    
+
     void printDataCar(){
-        System.out.println("\nLicense: " + license + " \nDriver: " + driver + "\n");
+        System.out.println("\nLicense: " + license + " \nDriver: " + driver.name + "\n");
     }
 
 }
